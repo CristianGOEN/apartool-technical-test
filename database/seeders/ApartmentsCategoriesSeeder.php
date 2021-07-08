@@ -16,7 +16,7 @@ class ApartmentsCategoriesSeeder extends Seeder
     public function run()
     {
         ApartmentCategoryEloquentModel::factory()
-            ->count(3)
+            ->count(12)
             ->create();
     }
 }

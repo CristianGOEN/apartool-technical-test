@@ -15,7 +15,7 @@ class ApartmentsSeeder extends Seeder
     public function run()
     {
         ApartmentEloquentModel::factory()
-            ->count(10)
+            ->count(30)
             ->create();
     }
 }

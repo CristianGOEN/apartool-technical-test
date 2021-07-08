@@ -15,7 +15,7 @@ class CategoriesSeeder extends Seeder
     public function run()
     {
         CategoryEloquentModel::factory()
-            ->count(5)
+            ->count(20)
             ->create();
     }
 }

@@ -7,14 +7,14 @@ Run composer with `composer install`
 
 Serve the application with `php artisan serve`
 
+## Run migrations
+Use `php artisan migrate` to run migrations
+
 ## How to run tests
 Use `vendor\bin\phpunit tests` to run tests
 
-## Run migrations & factories
-Use `php artisan migrate` to run migrations
-
+## Run factories
 Use `php artisan db:seed` to run factories
-
 
 ## Architecture
 Used TDD and DDD with hexagonal architecture applying solid, closer approach to CQRS using DTO's to transfer data between layers, making easy to use a command bus in the future.
